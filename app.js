@@ -11,7 +11,7 @@ Buttons.forEach((btn) => {
 
     article.classList.toggle("show-text");
     questions.forEach((ques) => {
-      if (ques.classList !== article.classList) {
+      if (ques !== article) {
         ques.classList.remove("show-text");
       }
     });
